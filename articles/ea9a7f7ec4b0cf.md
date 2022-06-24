@@ -195,8 +195,7 @@ param_grid = {
 }
 
 tune_rfr = model_selection.GridSearchCV(rfr, param_grid=param_grid, scoring = 'neg_root_mean_squared_error', cv = kf)
-                                        
-                                        
+                                                                   
 tune_rfr.fit(train_x, train_y)
 print("最もよいパラメータ: ", tune_rfr.best_params_)
 print("検証データの平均値: ", tune_rfr.cv_results_['mean_test_score'][tune_rfr.best_index_])
