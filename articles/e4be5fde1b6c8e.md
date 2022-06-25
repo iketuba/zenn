@@ -1,5 +1,5 @@
 ---
-title: "titanic digit recognizerに挑戦!"
+title: "kaggle digit recognizerに挑戦!"
 emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "機械学習", "初心者", "プログラミング"]
