@@ -3,7 +3,7 @@ title: "titanic digit recognizerに挑戦!"
 emoji: "👋"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "機械学習", "初心者", "プログラミング"]
-published: false
+published: true
 ---
 # 初めに
 この記事では、kaggleのDigit Recognizerコンペについて説明していきます！0から9までの手書き文字を判別するコンペです。なお、コードは以下を参考にして下さい。
